@@ -4,7 +4,7 @@ ChatGPT APIで`gpt-3.5-turbo`を利用した、iOSのサンプルアプリです
 <img width="250" src="https://user-images.githubusercontent.com/77086210/222358477-2147adb9-fd60-46e0-8f75-40ab772ca0fd.gif">
 
 ## 記事
-https://qiita.com/district_13_bm/items/c8f4af7ef3065b14780d
+https://qiita.com/district_13_bm/items/c946e8043e0e4d55d349
 
 ## Requirements
 ### 動作環境
