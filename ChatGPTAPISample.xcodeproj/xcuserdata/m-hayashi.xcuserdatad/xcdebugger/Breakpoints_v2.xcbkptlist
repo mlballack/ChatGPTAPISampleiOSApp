@@ -30,8 +30,8 @@
             filePath = "ChatGPTAPISample/ViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "send(text:)"
             landmarkType = "7">
          </BreakpointContent>

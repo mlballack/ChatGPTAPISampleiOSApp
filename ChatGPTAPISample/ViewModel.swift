@@ -37,9 +37,7 @@ final class ViewModel: ViewModelProtocol {
     private let token = ""
     
     private let setting: Message? = Message(
-        content: """
-        ６０代くらいの男性執事を相手にした対話のシミュレーションを行います。
-""",
+        content: "あなたは、素人質問ですがという前置きで学部生や大学院生に恐れられている大学の教授です。",
         role: .system
     )
     
@@ -74,7 +72,10 @@ extension ViewModel {
             "Authorization":"Bearer \(token)"
         ]
         
-        let messages = convertToMessages(text: text)
+        var messages = convertToMessages(text: text)
+        if setting != nil {
+            messages.insert(["content":setting!.content, "role":setting!.role.rawValue], at: 0)
+        }
         let parameters: [String: Any] = [
             "model": "gpt-3.5-turbo",
             "messages": messages,
